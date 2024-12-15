@@ -1,11 +1,19 @@
 #include <stdio.h>
 
 int main() {
-  int myfacoritenum = 0;
+  char myfacoritenum[100];
+  int age = 0;
+
+  printf("What is your name?\n");
+  scanf("%99s", myfacoritenum);
+  printf("You Entered: %s\n", myfacoritenum);
   
-  printf("Please enter your favoritenumber\n");
-  scanf("%d", &myfacoritenum);
-  printf("You Entered: %d\n", myfacoritenum);
+
+  printf("What is your age?\n");
+  scanf("%d", &age); 
+  printf("You Entered: %d\n", age);
 
 
+printf("Your name is %s and you are %d years old\n", myfacoritenum, age);
+  
   return 0;}
