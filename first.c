@@ -11,7 +11,7 @@ int main() {
 
   printf("What is your age?\n");
   scanf("%d", &age); 
-  printf("You Entered: %d\n", age);
+  printf("You entered this number: %d\n", age);
 
 
 printf("Your name is %s and you are %d years old\n", myfacoritenum, age);
