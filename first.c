@@ -14,6 +14,6 @@ int main() {
   printf("You entered this number: %d\n", age);
 
 
-printf("Your name is %s and you are %d years old\n", myfacoritenum, age);
-  
+  printf("Your name is %s and you are %d years old\n", myfacoritenum, age);
+
   return 0;}
