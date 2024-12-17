@@ -1,4 +1,10 @@
-#include <stdio.h>
+/*
+ *This is my first C project!
+ *
+ *
+ */
+ 
+ #include <stdio.h>
 
 int main() {
   char myfacoritenum[100];
@@ -16,4 +22,8 @@ int main() {
 
   printf("Your name is %s and you are %d years old\n", myfacoritenum, age);
 
-  return 0;}
+  return 0;
+
+  /* Just learning how to comment it seems like it is just like JS*/
+  //We can use // too
+}
