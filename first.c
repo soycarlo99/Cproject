@@ -6,7 +6,26 @@
  
  #include <stdio.h>
 
+
+
 int main() {
+  int x, y, z;
+
+  x = 5;
+  printf("%d\n", x); //This prints the variable itself
+  printf("%d\n", &x); //This prints the memory adress of the variable x
+
+
+
+
+
+
+
+
+
+
+
+/*
   char myName[100];
   int age = 0;
 
@@ -21,7 +40,7 @@ int main() {
 
 
   printf("Your name is %s and you are %d years old\n", myName, age);
-
+*/
   return 0;
 
   /* Just learning how to comment it seems like it is just like JS*/
