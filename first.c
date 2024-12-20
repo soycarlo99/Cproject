@@ -4,19 +4,31 @@
  *
  */
  
- #include <stdio.h>
+#include <stdio.h>
 
-
+enum brand {GOOGLE, FACEBOOK, XEROX, YAHOO, EBAY, MICROSOFT};
 
 int main() {
-  
+ 
+
+
+  //enum brand {GOOGLE, FACEBOOK, XEROX, YAHOO, EBAY, MICROSOFT};
+  enum brand myBrand1 = GOOGLE;
+  enum brand myBrand2 = FACEBOOK;
+  enum brand myBrand3 = XEROX;
+
+  printf("Brand: GOOGLE, index = %d\n", myBrand1);
+
+  printf("Brand: GOOGLE, index = %d\n", myBrand2);
+
+  printf("Brand: GOOGLE, index = %d\n", myBrand3);
 /*
   Enums test enum myColors = {ried, green, blue}
   
-*/
+
   enum gender {male, female};
   enum gender myGender;
-
+*/
 
 
 
