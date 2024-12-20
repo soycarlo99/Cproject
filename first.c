@@ -23,7 +23,7 @@ int main() {
 
   printf("Brand: GOOGLE, index = %d\n", myBrand3);
 /*
-  Enums test enum myColors = {ried, green, blue}
+  Enums test enum myColors = {red, green, blue}
   
 
   enum gender {male, female};
