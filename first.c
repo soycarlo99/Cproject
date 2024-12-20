@@ -9,20 +9,24 @@
 
 
 int main() {
-  int x, y, z;
+  
+/*
+  Enums test enum myColors = {ried, green, blue}
+  
+*/
+  enum gender {male, female};
+  enum gender myGender;
+
+
+
+
+/*
+  * int x, y, z;
 
   x = 5;
   printf("%d\n", x); //This prints the variable itself
   printf("%d\n", &x); //This prints the memory adress of the variable x
-
-
-
-
-
-
-
-
-
+*/
 
 
 /*
