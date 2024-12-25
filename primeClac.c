@@ -4,19 +4,18 @@ int main(){
   int primes[100];
   int count = 0;
   
-  // Find prime numbers
-  for (int i = 2; i < 100; i++) { // Start from 2 (smallest prime number)
-      int isPrime = 1; // Flag to check if the number is prime
+  for (int i = 2; i < 100; i++) {
+      int isPrime = 1;
 
-      for (int j = 2; j * j <= i; j++) { // Check divisors up to sqrt(i)
+      for (int j = 2; j * j <= i; j++) { 
           if (i % j == 0) {
-              isPrime = 0; // If divisible, it's not prime
+              isPrime = 0;
               break;
           }
       }
 
       if (isPrime) {
-          primes[count++] = i; // Store the prime number in the array
+          primes[count++] = i;
       }
   }
 
