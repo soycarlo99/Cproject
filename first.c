@@ -10,9 +10,9 @@ enum brand {GOOGLE, FACEBOOK, XEROX, YAHOO, EBAY, MICROSOFT};
 
 int main() {
  
+  
 
-
-  //enum brand {GOOGLE, FACEBOOK, XEROX, YAHOO, EBAY, MICROSOFT};
+  //enum name of the companies {GOOGLE, FACEBOOK, XEROX, YAHOO, EBAY, MICROSOFT};
   enum brand myBrand1 = GOOGLE;
   enum brand myBrand2 = FACEBOOK;
   enum brand myBrand3 = XEROX;
