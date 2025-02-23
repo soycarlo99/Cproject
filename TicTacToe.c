@@ -24,7 +24,7 @@ void draw(void){
   printf("\t\tTic Tac Toe!\n");
   printf("\tPlease enter a number in the grid\n\n\n");
 
-  //The interface: 
+  //The game interface: 
 
   printf("   %c   |   %c   |   %c   \n", lots[1], lots[2], lots[3]);
   printf("-------|-------|-------\n");
