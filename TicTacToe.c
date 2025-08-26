@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//yo
 void draw(void);
 void mark(void);
 void check(void);
@@ -37,7 +37,6 @@ void draw(void){
   mark();
 }
 
-
 void mark(void){
   if(turns == 0){
   printf("Player 1 start the game. Please choose an available square number between 1-9\n");
@@ -70,7 +69,6 @@ void mark(void){
   draw();
   }
 }
-
 
 void check(void) {
     // Row wins
